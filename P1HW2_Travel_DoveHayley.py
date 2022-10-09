@@ -3,11 +3,11 @@
 #CTI-110 P1HW2 - Travel Expense
 #Hayley Dove
 #
-budget = int('2000')
-location = 'Atlanta'
-gas = int('300')
-hotel = int('400')
-food = int('250')
+budget = int(input())
+location = (input)
+gas = int(input())
+hotel = int(input())
+food = int(input())
 total = int(gas + hotel + food)
 balance = int(budget - total)
 print ('This program calculates and displays travel expenses\n')
